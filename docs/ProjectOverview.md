@@ -12,8 +12,7 @@ The system will allow gym owners and staff to monitor memberships and reservatio
 
 ## 3. Stakeholders
 
-- **Gym Owners / Administrators** — Manage memberships, bookings, schedules, products, and overall gym operations.
-- **Gym Staff** — Monitor member attendance, active memberships, reservations, and daily gym activities.
+- **Gym Owners / staff** — Manage memberships, bookings, schedules, products, and overall gym operations. Also Monitor member attendance, active memberships, reservations, and daily gym activities.
 - **Gym Members / Customers** — Use the system to access gym information, reserve schedules, check membership status, and locate gyms.
 - **Potential / Walk-in Customers** — Use Trainly to discover nearby gyms and view available gym information before becoming members.
 
