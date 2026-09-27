@@ -30,9 +30,6 @@ The system will allow gym owners and staff to monitor memberships and reservatio
 - **Version Control:** Git
 - **API Testing:** Postman
 - **Development Environment:** Visual Studio Code
-<<<<<<< HEAD
-- **Diagramming:** Draw.io or equivalent diagramming tool
-=======
 - **Diagramming:** Draw.io or equivalent diagramming tool
 
 ## 5. High-Level System Overview
