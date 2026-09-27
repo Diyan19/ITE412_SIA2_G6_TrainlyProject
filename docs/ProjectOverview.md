@@ -57,3 +57,18 @@ Trainly is a web-based gym management and booking system designed primarily for 
 ### Data Flow Summary
 
 Gym members and walk-in customers provide account information, booking requests, and gym search or location requests to Trainly. Gym owners and staff provide member data, schedule and reservation updates, attendance updates, member verification, gym information, location data, and product information. Trainly processes these inputs through its major modules and stores the resulting information in the appropriate data stores. The system then provides users with booking confirmations, schedule information, membership information, nearby gym information, active membership status, daily reservations, and other relevant records.
+
+## Integration Pattern Applied
+
+### Selected Integration Pattern
+**Hub-Spoke**
+
+### Rationale
+Trainly uses the Hub-Spoke integration pattern because its different modules need to exchange information through a centralized communication flow. The Trainly Integration Hub serves as the central point that routes requests and data between the User & Member Management, Booking & Schedule Management, Attendance & Membership Monitoring, Gym Information & Location, and Product Management modules.
+
+Using a central hub reduces the need for direct connections between individual modules and keeps communication organized. This approach also makes the system easier to maintain because changes in one module do not require direct connections to every other module.
+
+### Diagram Reference
+The High-Level Architecture Diagram is available at:
+
+`/docs/HighLevelArch.png`
