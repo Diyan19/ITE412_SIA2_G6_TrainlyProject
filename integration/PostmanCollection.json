@@ -1,0 +1,105 @@
+{
+  "info": {
+    "_postman_id": "136c2bed-7217-440d-8772-ecda17d454b6",
+    "name": "PostmanCollection.json",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "57646092",
+    "_collection_link": "https://go.postman.co/collection/57646092-136c2bed-7217-440d-8772-ecda17d454b6?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET Request members",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/members",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "members"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST Request members",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Adrian Largo\",\r\n  \"email\": \"adrian@example.com\",\r\n  \"membership\": \"Premium\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/members",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "members"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "GET Request bookings",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/bookings",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "bookings"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST Request bookings",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"memberId\": 3,\r\n  \"gym\": \"Trainly Fitness Center\",\r\n  \"date\": \"2026-09-29\",\r\n  \"time\": \"02:00 PM\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/bookings",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "bookings"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
