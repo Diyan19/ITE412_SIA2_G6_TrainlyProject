@@ -26,3 +26,34 @@ The system will allow gym owners and staff to monitor memberships and reservatio
 - **API Testing:** Postman
 - **Development Environment:** Visual Studio Code
 - **Diagramming:** Draw.io or equivalent diagramming tool
+
+## 5. High-Level System Overview
+
+Trainly is a web-based gym management and booking system designed primarily for small and medium-sized gyms. It provides a centralized platform where gym owners and staff can manage memberships, monitor attendance, organize workout schedules and reservations, and offer gym-related products. Gym members can use the system to reserve workout schedules, check relevant membership information, discover nearby gyms through GPS-enabled location mapping, and access available fitness products.
+
+### Major Modules/Subsystems
+
+1. **User & Member Management**
+   - Handles user accounts, member information, membership records, and member monitoring.
+
+2. **Booking & Schedule Management**
+   - Handles workout schedules, booking requests, reservations, and reservation/schedule records.
+
+3. **Attendance & Membership Monitoring**
+   - Handles attendance updates, member verification, active membership status, daily reservations, and attendance records.
+
+4. **Gym Information & Location**
+   - Provides gym information and GPS-enabled location services for finding nearby gyms.
+
+5. **Product Management**
+   - Allows gym owners and staff to manage available gym-related products and product records.
+
+### External Systems/Interfaces
+
+- **GPS-enabled Location Mapping** – Supports the discovery of nearby gyms through location-based services.
+- **Application Database** – Stores user/member records, booking and schedule records, attendance records, gym information and location data, and product records.
+- **Third-Party APIs** – No specific third-party API is currently identified in the project documentation. The specific mapping/location API can be defined during implementation.
+
+### Data Flow Summary
+
+Gym members and walk-in customers provide account information, booking requests, and gym search or location requests to Trainly. Gym owners and staff provide member data, schedule and reservation updates, attendance updates, member verification, gym information, location data, and product information. Trainly processes these inputs through its major modules and stores the resulting information in the appropriate data stores. The system then provides users with booking confirmations, schedule information, membership information, nearby gym information, active membership status, daily reservations, and other relevant records.
