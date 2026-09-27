@@ -74,3 +74,14 @@ The High-Level Architecture Diagram is available at:
 
 `/docs/HighLevelArch.png`
 
+## Messaging Workflow
+
+Trainly implements a simple asynchronous messaging workflow for processing gym booking requests. When a member submits a booking, the Booking Producer creates a booking request and places it into the message queue.
+
+The Booking Consumer retrieves the queued booking requests and processes them one by one. Each booking contains the member ID, member name, gym, date, and time. After processing, the booking is marked as confirmed and the schedule details are displayed.
+
+The messaging flow is:
+
+Member → Booking Producer → Message Queue → Booking Consumer → Booking Confirmation
+
+This implementation demonstrates how messaging middleware can allow the Booking Module and Booking Processing Module to communicate through a queue instead of directly communicating with each other. The current prototype uses an in-memory queue in Node.js for demonstration purposes.
