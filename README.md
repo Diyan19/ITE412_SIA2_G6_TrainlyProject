@@ -4,7 +4,7 @@
 
 **Team Name:** Group 6
 
-- Leah Mae H. Abela — Project Lead
+- Leah Mae H. Abela — Project Leader
 - Adrian Largo — Documentation
 - Dhrexel Delin — Diagram Designer
 - Jhon Lawrence G. Ballesteros — Presenter
