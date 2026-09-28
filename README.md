@@ -45,4 +45,8 @@ git add .
 git commit -m "docs: update project documentation"
 
 git push -u origin feature/<your-name>
+## Repository Structure
 
+- `/docs` — Project documentation and related files
+- `/src` — Source code of the Trainly system
+- `/integration` — Integration scripts and configurations
